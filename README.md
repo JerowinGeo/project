@@ -1,4 +1,4 @@
-# project
+# Project
 
 ### DATE:
 
@@ -7,48 +7,12 @@ To write a python program using OpenCV to do the following image manipulations.
 i) Extract ROI from  an image.
 ii) Perform handwritting detection in an image.
 iii) Perform object detection with label in an image.
+
 ## Software Required:
 Anaconda - Python 3.7
-## Algorithm:
-## I)Perform ROI from an image
-### Step1:
-Import necessary packages 
-### Step2:
-Read the image and convert the image into RGB
-### Step3:
-Display the image
-### Step4:
-Set the pixels to display the ROI 
-### Step5:
-Perform bit wise conjunction of the two arrays  using bitwise_and 
-### Step6:
-Display the segmented ROI from an image.
-## II)Perform handwritting detection in an image
-### Step1:
-Import necessary packages 
-### Step2:
-Define a function to read the image,Convert the image to grayscale,Apply Gaussian blur to reduce noise and improve edge detection,Use Canny edge detector to find edges in the image,Find contours in the edged image,Filter contours based on area to keep only potential text regions,Draw bounding boxes around potential text regions.
-### Step3:
-Display the results.
-## III)Perform object detection with label in an image
-### Step1:
-Import necessary packages 
-### Step2:
-Set and add the config_file,weights to ur folder.
-### Step3:
-Use a pretrained Dnn model (MobileNet-SSD v3)
-### Step4:
-Create a classLabel and print the same
-### Step5:
-Display the image using imshow()
-### Step6:
-Set the model and Threshold to 0.5
-### Step7:
-Flatten the index,confidence.
-### Step8:
-Display the result.
 
-## PROGRAM:
+
+## Algorithm:
 ### I)Perform ROI from an image
 ```python
 import cv2
@@ -67,8 +31,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 #### OUTPUT:
-![1project](https://github.com/deepikasrinivasans/project/assets/119393935/04f2cadc-a027-47a1-87a2-aad4b224b0eb)
-![2pro](https://github.com/deepikasrinivasans/project/assets/119393935/9c666d29-deee-46f5-a8ad-ecafe1c65ccc)
+![image](https://github.com/user-attachments/assets/af244a13-88bf-40bc-8087-1cbc7b24d4a0)
+
 
 
 ### II)Perform handwritting detection in an image
@@ -102,7 +66,7 @@ detect_handwriting(image_path)
 ```
 #### OUTPUT:
 
-![3pro](https://github.com/deepikasrinivasans/project/assets/119393935/a4ed543d-5720-42e5-8ae1-449ad623ef6c)
+![image](https://github.com/user-attachments/assets/aad6f3f6-7720-48cf-9b4b-46c806a1de6a)
 
 ### III)Perform object detection with label in an image
 
@@ -137,7 +101,7 @@ plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 ```
 
 #### OUTPUT:
-![4pro](https://github.com/deepikasrinivasans/project/assets/119393935/b84d43da-847f-44f2-b566-397fe88b93ed)
+![image](https://github.com/user-attachments/assets/dca122fc-c01d-4c54-8d20-1a37ee1622a5)
 
 ## Result:
 Thus, a python program using OpenCV for following image manipulations is done successfully
