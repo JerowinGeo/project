@@ -102,4 +102,4 @@ plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 ![image](https://github.com/user-attachments/assets/dca122fc-c01d-4c54-8d20-1a37ee1622a5)
 
 ## Result:
-Thus, a python program using OpenCV for following image manipulations is done successfully
+Thus, a python program using OpenCV for following image manipulations is done successfully.
